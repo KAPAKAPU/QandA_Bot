@@ -1,0 +1,5 @@
+streamlit
+cohere
+pinecone-client
+PyPDF2
+watchdog
