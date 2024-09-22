@@ -10,3 +10,21 @@ Features
 	•	Document Retrieval: The bot retrieves relevant document segments based on the user’s query, providing contextually accurate responses.
 	•	Streamlit Frontend: An intuitive interface built using Streamlit for seamless user interaction.
 	•	Scalable and Efficient: Designed to handle large documents and multiple queries without performance drops.
+
+
+QandA_Bot/
+│
+├── .streamlit/                    # Streamlit specific configurations
+│   └── secrets.toml               # Contains API keys and secrets
+│
+├── documents/                     # Directory for uploaded documents (optional, if needed for storage)
+│
+├── app.py                         # Main Streamlit application file (frontend)
+│
+├── backend.py                     # Backend logic for embedding and querying with Cohere and Pinecone
+│
+├── pdf_processing.py              # PDF processing and text extraction logic
+│
+├── requirements.txt               # List of required Python packages for the project
+│
+└── Dockerfile                     # Docker configuration file for containerizing the application
